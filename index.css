@@ -117,7 +117,7 @@ body {
     border-radius: 0px 0px 100px 100px;
 }
 
-.container .line-numbers {
+#about_container .line-numbers {
     height: 10vh;
     width: 1.5%;
     color: #6b7388;
@@ -128,7 +128,7 @@ body {
     text-align: right;
 }
 
-.container .divider {
+#about_container .divider {
     height: 100vh;
     width: 0.25%;
     background-color: #2a3243;
@@ -149,7 +149,8 @@ body {
     display: inline-block;
     color: rgb(71, 71, 71);
     line-height: 12px;
-    margin-left: 2%;
+    margin-left: 4%;
+    padding-left: 20px;
     font-size: 15px;
     margin-top: 15px;
 }
@@ -409,6 +410,23 @@ ul {
 @media (max-width: 800px) {
     #about {
         display: none;
+    }
+    #about_container .line-numbers {
+        display: none;
+    }
+    #about_container .divider {
+        display: none;
+    }
+
+    #about_container .comments {
+        margin-top: 50px;
+        margin: 0 auto;
+        width: 80vw;
+    }
+    #about_container .about-list {
+        margin-top: 20px;
+        margin: 0 auto;
+        width: 80vw;
     }
     #contact {
         display: none;
