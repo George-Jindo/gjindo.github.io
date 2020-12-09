@@ -31,11 +31,13 @@
         
         
         <div>    
-        <img src='../images/profile.jpg' align = "center" />
+        <img src='../assets/images/profile.jpg' align = "center" />
         </div>
          
         <h1 id="title_h1" title="Ready for Hire 👍🏼"></h1>
         <h2>Full Stack Developer.</h2>
+        <section><button class="btn_one"><a href='../docs/resume.pdf' download>Download CV</a></button></section>
+        
         <div id="menu">
             <a onclick="showabout()">about</a>
             <a onclick="showwork()">work</a>
@@ -43,48 +45,45 @@
         </div>
         <table>
                 <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.facebook.com/gjindo/" target="_blank" class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://twitter.com/gjindo" target="_blank" class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://github.com/George-Jindo" target="_blank" class="social"><i class="fab fa-github"></i></a></td>
                 </tr>
         </table>
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>works.</h1>
+        <h1>projects.</h1>
         <section>
-            <h2>work title</h2>
+            <h2>ChatterBox</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                A stripped down version of slack, with user login featuring realtime 
+                chat interaction and a user list displaying active users. Users and messages
+                stored in a database. 
             </p>
             <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;C#</div>
+                <div><i class="fas fa-circle"></i>&nbsp;ReactJs</div>
+                <div><i class="fas fa-circle"></i>&nbsp;ASP.NET</div>
+                <div><i class="fas fa-circle"></i>&nbsp;PostgreSQL</div>
+                <div><i class="fas fa-circle"></i>&nbsp;JS</div>
                 <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
             </div>
-            <button class="btn_one">button 1</button>
-            <button class="btn_two">button 2</button>
+            <button class="btn_one">Live Demo</button>
+            <button class="btn_two">View Source</button>
         </section>
         <section>
-            <h2>work title</h2>
+            <h2>Twitter Showcase</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Twitter Search Showcase app. An app designed to search for Tweets using keywords and also a showcase of 5 of my favorite 
+                Twitter users that displays a random Tweet from them with the click of a button.
             </p>
             <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;ReactJs</div>
+                <div><i class="fas fa-circle"></i>&nbsp;NodeJs</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Heroku</div>
+                <div><i class="fas fa-circle"></i>&nbsp;API</div>
             </div>
             <button class="btn_one">button 1</button>
             <button class="btn_two">button 2</button>
@@ -128,63 +127,63 @@
     </div>
     <div id="about_container" class="container">
             <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>about.</h1>
+                <h1>about.</h1>
             
-              <div class="about-main-section">
-                <div class="line-numbers">
-                    <p>
-                      1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
-                      27 28 29 30 31 32 33 34
-                    </p>
-                  </div>
-                  <div class="divider"></div>
+                <section class="about-main-section">
+                    <section class="line-numbers">
+                        <p>
+                        1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+                        27 28 29 30 31 32 33 34
+                        </p>
+                    </section>
+                    <section class="divider"></section>
                 
-                <div>
-                    <div class="comments">
+                <section>
+                    <section class="comments">
                         <p>// This is a comment.</p>
                         <p>// This is a comment.</p>
                         <p>// This is a comment.</p>
-                    </div><br>
-                    <ul class="about-list">
+                    </section><br>
+                        <ul class="about-list">
 
 
-                        <li>
-                            <p>
-                            <span style="color: #C2A3E9" >.name</span> &#123;
-                            </p>
-                            <p class="tag-info">George Jindo</p>
-                            <p>&#125;</p>
-                        </li>
-                        <li>
-                            <p>
-                            <span style= "color: #6FA1D2" >.bio</span> &#123;
-                            </p>
-                            <p class="tag-info">
-                            I am originally from Chicago, and currently reside in Arizona where I 
-                            am well-versed in creating full-stack web applications with a focus on React | Redux.
-                            In my spare time you can find me
-                            vastly improving my coder craft, spending time with family
-                            or gaming (if time is gracious).
-                            </p>
-                            <p>&#125;</p>
-                        </li>
-                        <li>
-                            <p>
-                            <span style="color:rgb(148, 211, 129)" >.skills</span> &#123;
-                            </p>
-                            <p class="tag-info">Web: HTML;</p>
-                            <p class="tag-info">Web: CSS;</p>
-                            <p class="tag-info">Web: Javascript;</p>
-                            <p class="tag-info">Framework: React;</p>
-                            <p class="tag-info">Framework: Nodejs;</p>
-                            <p class="tag-info">Cloud Platform: Heroku;</p>
-                            <p>&#125;</p>
-                        </li>
-                    </ul>
-                </div>
+                            <li>
+                                <p>
+                                <span style="color: #C2A3E9" >.name</span> &#123;
+                                </p>
+                                <p class="tag-info">George Jindo</p>
+                                <p>&#125;</p>
+                            </li>
+                            <li>
+                                <p>
+                                <span style= "color: #6FA1D2" >.bio</span> &#123;
+                                </p>
+                                <p class="tag-info">
+                                I am originally from Chicago, and currently reside in Arizona where I 
+                                am well-versed in creating full-stack web applications with a focus on React | Redux.
+                                In my spare time you can find me
+                                vastly improving my coder craft, spending time with family
+                                or gaming (if time is gracious).
+                                </p>
+                                <p>&#125;</p>
+                            </li>
+                            <li>
+                                <p>
+                                <span style="color:rgb(148, 211, 129)" >.skills</span> &#123;
+                                </p>
+                                <p class="tag-info">Web: HTML;</p>
+                                <p class="tag-info">Web: CSS;</p>
+                                <p class="tag-info">Web: Javascript;</p>
+                                <p class="tag-info">Framework: React;</p>
+                                <p class="tag-info">Framework: Nodejs;</p>
+                                <p class="tag-info">Cloud Platform: Heroku;</p>
+                                <p>&#125;</p>
+                            </li>
+                        </ul>
+                </section>
 
-              </div>
-            </div>
+              </section>
+    </div>
             
         </div>
           <div id="contact_container" class="container">
@@ -203,7 +202,7 @@
             </section>
         </div>
         <div id="footer">
-            made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+            made with 💜 by yours truly <br> <a href="#">George Jindo</a>
         </div>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>

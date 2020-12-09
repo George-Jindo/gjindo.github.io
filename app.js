@@ -8,10 +8,10 @@ particlesJS('particles-js', {
             },
         },
         color: {
-            value: '#fff',
+            value: ['#293042', '#fff', '#94D381'],
         },
         shape: {
-            type: 'circle',
+            type: ['edge', 'circle'],
             stroke: {
                 width: 0,
                 color: '#ff3232',
