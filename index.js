@@ -55,3 +55,27 @@ setTimeout(function () {
 const h1 = document.getElementById('title_h1');
 
 h1.innerText = '<George Jindo />';
+
+const btn = document.getElementById('button');
+
+document
+    .getElementById('contact_form')
+    .addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        btn.value = 'Sending...';
+
+        const serviceID = 'service_i60no6s';
+        const templateID = 'template_k19kfuq';
+
+        emailjs.sendForm(serviceID, templateID, this).then(
+            () => {
+                alert('Message has been sent!');
+                closecontact();
+            },
+            (err) => {
+                btn.value = 'Send Email';
+                alert(JSON.stringify(err));
+            }
+        );
+    });
