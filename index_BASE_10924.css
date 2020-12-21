@@ -104,7 +104,6 @@ body {
     height: 9vw;
     text-align: center;
     font-size: 25px;
-    font-weight: 600;
     transform: rotate(-90deg);
     background: transparent;
     color: #fff;
@@ -116,9 +115,7 @@ body {
     justify-content: center;
     z-index: 4;
     transition: 0.4s ease-in-out;
-    border-style: none solid solid solid;
-    border-color: rgba(148, 211, 129, 0.329);
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 0px 100px 100px;
 }
 
 #about_container .line-numbers {
@@ -181,7 +178,6 @@ ul {
     height: 9vw;
     text-align: center;
     font-size: 25px;
-    font-weight: 600;
     transform: rotate(90deg);
     background: transparent;
     color: #fff;
@@ -193,20 +189,13 @@ ul {
     justify-content: center;
     z-index: 4;
     transition: 0.4s ease-in-out;
-    border-style: none solid solid solid;
-    border-color: rgba(148, 211, 129, 0.329);
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 0px 100px 100px;
 }
 #contact {
-    width: 9.5vw;
-<<<<<<< HEAD
+    width: 9vw;
     height: 9vw;
-=======
-    height: 7vw;
->>>>>>> gh-pages
     text-align: center;
     font-size: 25px;
-    font-weight: 600;
     background: transparent;
     color: #fff;
     position: fixed;
@@ -217,9 +206,7 @@ ul {
     justify-content: center;
     z-index: 4;
     transition: 0.4s ease-in-out;
-    border-style: solid solid none solid;
-    border-color: rgba(148, 211, 129, 0.329);
-    border-radius: 50px 50px 0px 0px;
+    border-radius: 100px 100px 0px 0px;
 }
 #about:hover {
     background: rgba(148, 211, 129, 0.753);
@@ -237,8 +224,8 @@ ul {
     color: #293042;
 }
 #middle table {
-    width: 40%;
-    margin: 3vh auto;
+    width: 30%;
+    margin: 6vh auto;
 }
 #middle table tr td {
     text-align: center;
@@ -250,7 +237,6 @@ ul {
     transition: 0.4s ease-in-out;
     margin: 0px 8px;
     text-align: center;
-    align-content: center;
 }
 .social:hover {
     cursor: pointer;

@@ -199,11 +199,7 @@ ul {
 }
 #contact {
     width: 9.5vw;
-<<<<<<< HEAD
     height: 9vw;
-=======
-    height: 7vw;
->>>>>>> gh-pages
     text-align: center;
     font-size: 25px;
     font-weight: 600;
@@ -237,8 +233,8 @@ ul {
     color: #293042;
 }
 #middle table {
-    width: 40%;
-    margin: 3vh auto;
+    width: 30%;
+    margin: 6vh auto;
 }
 #middle table tr td {
     text-align: center;
