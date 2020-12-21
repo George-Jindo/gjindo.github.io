@@ -57,18 +57,19 @@
         <section>
             <h2>ChatterBox</h2>
             <p>
+                <strong>Overview:</strong></br>
                 A stripped down version of slack, with user login featuring realtime 
                 chat interaction and a user list displaying active users. Users and messages
-                stored in a database. 
+                stored in a Postgres database.<br><br>
+                <strong>Struggles:</strong><br>
+                Figuring out whether or not to inject direct Npgsql or use an ORM such as Entity Framework to map out my database structure.
+                I applied both, but went with direct Npgsql injection.
             </p>
             <div id="used">
                 <div><i class="fas fa-circle"></i>&nbsp;C#</div>
                 <div><i class="fas fa-circle"></i>&nbsp;ReactJs</div>
                 <div><i class="fas fa-circle"></i>&nbsp;ASP.NET</div>
                 <div><i class="fas fa-circle"></i>&nbsp;PostgreSQL</div>
-                <div><i class="fas fa-circle"></i>&nbsp;JS</div>
-                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
             </div>
             <button class="btn_one">Live Demo</button>
             <button class="btn_two">View Source</button>
@@ -76,8 +77,13 @@
         <section>
             <h2>Twitter Showcase</h2>
             <p>
-                Twitter Search Showcase app. An app designed to search for Tweets using keywords and also a showcase of 5 of my favorite 
-                Twitter users that displays a random Tweet from them with the click of a button.
+                <strong>Overview:</strong></br>
+                A WebAPI app designed to search for tweets using keywords and also a showcase of 5 of my favorite 
+                Twitter users that displays a random tweet from them with a single click.<br><br>
+                <strong>Struggles:</strong><br>
+                I came across the daunting CORS issue but quickly overcame it by pulling the necessary
+                API information to the backend and routing the JSON information to my frontend.
+                Creating a relationship via Axios GET methods from the frontend to the backend.
             </p>
             <div id="used">
                 <div><i class="fas fa-circle"></i>&nbsp;ReactJs</div>
@@ -85,8 +91,8 @@
                 <div><i class="fas fa-circle"></i>&nbsp;Heroku</div>
                 <div><i class="fas fa-circle"></i>&nbsp;API</div>
             </div>
-            <button class="btn_one">button 1</button>
-            <button class="btn_two">button 2</button>
+            <button class="btn_one">Live Demo</button>
+            <button class="btn_two">View Source</button>
         </section>
         <section>
             <h2>work title</h2>
